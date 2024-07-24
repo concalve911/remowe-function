@@ -25,8 +25,8 @@ if (!isValidString(inputString)) {
     const charsToRemove = charsToRemoveInput.split(",").map(function (char) {
       return char.trim();
     });
-  }
 
-  const result = removeCharsFromString(inputString, charsToRemove);
-  alert(result);
+    const result = removeCharsFromString(inputString, charsToRemove);
+    alert(result);
+  }
 }
